@@ -1,0 +1,25 @@
+function openPillar(type){
+
+const content = {
+
+pessoas: `
+<h3>Pessoas e Sucessão</h3>
+<p>Preparação de herdeiros, lideranças e cultura.</p>
+`,
+
+governanca: `
+<h3>Governança & Risco</h3>
+<p>Protocolos e conselhos familiares.</p>
+`,
+
+riqueza: `
+<h3>Riqueza</h3>
+<p>Family offices e planejamento patrimonial.</p>
+`
+
+};
+
+document.getElementById("detail").innerHTML =
+content[type];
+
+}

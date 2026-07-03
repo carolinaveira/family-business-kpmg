@@ -1,0 +1,20 @@
+<div class="grid md:grid-cols-3 gap-6">
+
+<div class="p-6 shadow"
+onclick="openPillar('pessoas')">
+Pessoas
+</div>
+
+<div class="p-6 shadow"
+onclick="openPillar('governanca')">
+Governança
+</div>
+
+<div class="p-6 shadow"
+onclick="openPillar('riqueza')">
+Riqueza
+</div>
+
+</div>
+
+<div id="detail"></div>
